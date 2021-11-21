@@ -51,7 +51,7 @@ function setup() {
   fruit = Bodies.circle(100,400,15,fruit_options);
   World.add(world,fruit);
   
-  bubble = createSprite(290,480,20,20);
+  bubble = createSprite(290,520,20,20);
   bubble.addImage(bubble_img);
   bubble.scale = 0.1;
   
